@@ -2,7 +2,7 @@
 """
 Created on Mon May 18 17:49:17 2020
 
-@author: SCEA
+@author: Gourav
 """
 
 
@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.patches as patches
 
-data = np.loadtxt('C:/Users/SCEA/.spyder-py3/My Stuffs/Files/NGC5272.csv')
+data = np.loadtxt('NGC5272.csv')
 color = []
 index=np.where(data[:,6]>90)
 
